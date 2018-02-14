@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="methods" thread-count="2">
+  <test name="Regression 1">
+    <classes>
+      <class name="test.java.dockerRemoteProject.test"/>
+    </classes>
+  </test> <!-- Test -->
+    <test name="Regression 2">
+    <classes>
+      <class name="test.java.dockerRemoteProject.test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

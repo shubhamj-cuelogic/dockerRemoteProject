@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]" parallel="tests">
+  <test name="Regression 2(failed)" parallel="tests">
+    <classes>
+      <class name="test.java.dockerRemoteProject.test">
+        <methods>
+          <include name="mytest2"/>
+        </methods>
+      </class> <!-- test.java.dockerRemoteProject.test -->
+    </classes>
+  </test> <!-- Regression 2(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

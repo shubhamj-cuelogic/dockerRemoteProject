@@ -63,7 +63,8 @@ public class test {
 	    	        DesiredCapabilities cap = DesiredCapabilities.firefox();
 	    	        cap.setCapability("version", "");
 	    	        cap.setCapability("platform", "LINUX");
-					driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+				//	driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+	    	        driver= new RemoteWebDriver(new URL("http://172.27.1.129:4444/wd/hub"), cap);
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -76,7 +77,8 @@ public class test {
 	    	        DesiredCapabilities cap = DesiredCapabilities.chrome();
 	    	        cap.setCapability("version", "");
 	    	        cap.setCapability("platform", "LINUX");
-					driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+				//	driver= new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+	    	        driver= new RemoteWebDriver(new URL("http://172.27.1.129:4444/wd/hub"), cap);
 				} catch (MalformedURLException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

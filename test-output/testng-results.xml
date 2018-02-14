@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel test suite" duration-ms="48291" started-at="2018-02-12T12:10:43Z" finished-at="2018-02-12T12:11:32Z">
+  <suite name="Parallel test suite" duration-ms="68227" started-at="2018-02-14T13:03:51Z" finished-at="2018-02-14T13:04:59Z">
     <groups>
     </groups>
-    <test name="Regression 1" duration-ms="24273" started-at="2018-02-12T12:10:43Z" finished-at="2018-02-12T12:11:08Z">
+    <test name="Regression 1" duration-ms="39144" started-at="2018-02-14T13:03:51Z" finished-at="2018-02-14T13:04:30Z">
       <class name="test.java.dockerRemoteProject.test">
-        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@4dfa3a9d]" name="mytest" duration-ms="24247" started-at="2018-02-12T17:40:43Z" finished-at="2018-02-12T17:41:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@4dfa3a9d]" name="mytest2" duration-ms="18012" started-at="2018-02-12T17:40:43Z" finished-at="2018-02-12T17:41:01Z">
+        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@4dfa3a9d]" name="mytest2" duration-ms="23042" started-at="2018-02-14T18:33:51Z" finished-at="2018-02-14T18:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest2 -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@4dfa3a9d]" name="mytest" duration-ms="39114" started-at="2018-02-14T18:33:51Z" finished-at="2018-02-14T18:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
       </class> <!-- test.java.dockerRemoteProject.test -->
     </test> <!-- Regression 1 -->
-    <test name="Regression 2" duration-ms="23982" started-at="2018-02-12T12:11:08Z" finished-at="2018-02-12T12:11:32Z">
+    <test name="Regression 2" duration-ms="29058" started-at="2018-02-14T13:04:30Z" finished-at="2018-02-14T13:04:59Z">
       <class name="test.java.dockerRemoteProject.test">
-        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@56ac3a89]" name="mytest" duration-ms="23976" started-at="2018-02-12T17:41:08Z" finished-at="2018-02-12T17:41:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@56ac3a89]" name="mytest2" duration-ms="19599" started-at="2018-02-12T17:41:08Z" finished-at="2018-02-12T17:41:27Z">
+        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@56ac3a89]" name="mytest2" duration-ms="19845" started-at="2018-02-14T18:34:30Z" finished-at="2018-02-14T18:34:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mytest2 -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@56ac3a89]" name="mytest" duration-ms="29054" started-at="2018-02-14T18:34:30Z" finished-at="2018-02-14T18:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
       </class> <!-- test.java.dockerRemoteProject.test -->
     </test> <!-- Regression 2 -->
   </suite> <!-- Parallel test suite -->

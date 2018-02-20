@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="142475" started-at="2018-02-20T09:43:36Z" finished-at="2018-02-20T09:45:59Z">
+    <groups>
+    </groups>
+    <test name="Regression 1" duration-ms="68166" started-at="2018-02-20T09:43:36Z" finished-at="2018-02-20T09:44:44Z">
+      <class name="test.java.dockerRemoteProject.test">
+        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@4b4ee511]" name="mytest2" duration-ms="16945" started-at="2018-02-20T09:43:36Z" finished-at="2018-02-20T09:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest2 -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@4b4ee511]" name="mytest" duration-ms="68142" started-at="2018-02-20T09:43:36Z" finished-at="2018-02-20T09:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
+      </class> <!-- test.java.dockerRemoteProject.test -->
+    </test> <!-- Regression 1 -->
+    <test name="Regression 2" duration-ms="74144" started-at="2018-02-20T09:44:44Z" finished-at="2018-02-20T09:45:59Z">
+      <class name="test.java.dockerRemoteProject.test">
+        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.java.dockerRemoteProject.test@16a35bd]" name="mytest2" duration-ms="8833" started-at="2018-02-20T09:44:44Z" finished-at="2018-02-20T09:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest2 -->
+        <test-method status="PASS" signature="mytest()[pri:0, instance:test.java.dockerRemoteProject.test@16a35bd]" name="mytest" duration-ms="74140" started-at="2018-02-20T09:44:44Z" finished-at="2018-02-20T09:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest -->
+      </class> <!-- test.java.dockerRemoteProject.test -->
+    </test> <!-- Regression 2 -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

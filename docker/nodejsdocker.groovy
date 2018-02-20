@@ -1,4 +1,4 @@
-job('NodeJS_Shubham_JOB') {
+job('Maven_Shubham_JOB') {
     scm {
         git('git://github.com/shubhamj-cuelogic/dockerRemoteProject.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')

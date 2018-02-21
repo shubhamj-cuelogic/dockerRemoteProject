@@ -10,7 +10,7 @@ job('Maven_Shubham_JOB') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('sjain21/testrepo')
+            repositoryName('sjain21/jenkins')
             tag('${GIT_REVISION,length=9}')
             registryCredentials('CBR!@fusionfactory1234')
             forcePull(false)

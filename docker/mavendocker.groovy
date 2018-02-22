@@ -10,7 +10,7 @@ job('Maven_Shubham_JOB') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('sjain21/testrepo')
+            repositoryName('sjain21/dockerRemote')
             tag('${GIT_REVISION,length=9}')
             registryCredentials('shubhamjain1234')
             forcePull(false)
